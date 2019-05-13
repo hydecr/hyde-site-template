@@ -1,8 +1,8 @@
-name: hyde-site-template
+name: hyde-template-default
 version: 0.1.0
 
 description: |
-  Boilerplate site template for new Hyde sites 
+  Boilerplate site template for new Hyde sites
 authors:
   - Chris Watson <chris@watzon.me>
 
