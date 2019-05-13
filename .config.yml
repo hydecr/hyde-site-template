@@ -1,0 +1,64 @@
+# Welcome to your Hyde config file!
+#
+# This file contains configuration values for your Hyde site. This file 
+# is specifically for data releated to your site's configuration, if
+# you need to store and load data you may want to look into Hyde's
+# data files.
+#
+# Site settings
+# These are uses to personalize your Hyde site. You can access this
+# data in your site's HTML files using the {{ site.param }} syntax,
+# where "param" is the name of the configuration item you want
+# to access.
+
+title: Welcome to your new Hyde project
+description: >-
+  This is a block of description text for your site. This will
+  be included by default on every page that doesn't set a
+  description or turn the description off
+  in it's frontmatter.
+author: Hyde
+baseurl: ""
+url: ""
+twitter_username: hydecr
+github_username: hydecr
+
+# Build settings.
+plugins:
+  # We won't load any plugins for you by default, but if you
+  # want to load them yourself it's pretty easy.
+  #
+  # If the plugin you want is a registered Hyde plugin you
+  # can just use its name to load it.
+  # - hyde-sass
+  #
+  # You can also fetch the plugin directly from Github. This 
+  # is helpful if the plugin you want is not registered, or
+  # you want to fetch a specific version.
+  # hyde-il8n:
+  #   github: hydecr/hyde-il8n
+  #   version: ~> 0.1
+  #
+  # If the plugin is in a git repository, but not on Github
+  # you can fetch it using git as well.
+  # hyde-webpack:
+  #   git: https://github.com/hydecr/hyde-webpack.git
+  #   commit: eb9723a85b0886f1fa3cc47201e2285ac37fbe32
+
+# Excluded items.
+# The following items will be excluded from the build pipeline.
+# Any files or folders that you don't want to be processed at
+# build time should be listed here.
+#
+# The following items are excluded by default and don't need
+# to be listed here.
+# exclude:
+#   - .hyde-cache/
+#   - .config.yml
+#   - .keep
+#   - node_modules/
+#
+# Included items.
+# If you want to include an excluded item just add it here.
+# indlude:
+#   - node_modules/node-sass
