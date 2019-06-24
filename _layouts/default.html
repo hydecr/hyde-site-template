@@ -5,10 +5,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name=viewport content="width=device-width, initial-scale=1">
 
-    <meta name=description content="{{ site.description }}">
-    <meta name=author content="{{ site.name }}">
-    <meta property="og:image" content="{{ site.url }}/{{ site.picture }}">
-    <meta property="og:type" content="profile">
+	{% include meta.html %}
 
     <title>{{ page.title }}</title>
 
@@ -16,10 +13,11 @@
     {{ css_link("assets/styles/main.css", { minify: true }) }}
 </head>
 <body>
-    <div class="site">
-        {{ content }}
-    </div>
+	{% include header.html %}
 
+    {{ content }}
+
+	{% include footer.html %}
     {{ script("assets/scripts/main.js", { minify: true }) }}
 </body>
 </html>
