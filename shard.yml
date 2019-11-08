@@ -1,0 +1,17 @@
+name: hyde_template_default
+version: 0.1.0
+
+authors:
+  - Chris Watson <cawatson1993@gmail.com>
+
+dependencies:
+  hyde:
+    github: hydecr/hyde
+  hyde_blog:
+    github: hydecr/hyde_blog
+  hyde_i18n:
+    github: hydecr/hyde_i18n
+
+crystal: 0.31.1
+
+license: MIT
